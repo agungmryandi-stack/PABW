@@ -1,0 +1,57 @@
+* { box-sizing: border-box; }
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf3fb;
+    margin: 0;
+    padding: 24px 16px;
+    color: #1f2d3d;
+}
+
+.card {
+    max-width: 480px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .1);
+}
+
+h1 { margin: 0 0 4px; color: #0b5ea8; }
+.sub { margin: 0 0 20px; color: #5f6f81; font-size: 14px; }
+
+label { display: block; margin: 14px 0 6px; font-weight: bold; }
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b8c7d6;
+    border-radius: 8px;
+    font-size: 15px;
+}
+input:focus, textarea:focus { outline: 2px solid #0b5ea8; }
+
+.error { color: #c0392b; font-size: 13px; margin-top: 4px; }
+
+button, .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 11px 18px;
+    background: #0b5ea8;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+button:disabled { background: #8aa9c4; cursor: not-allowed; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+td { padding: 10px 4px; border-bottom: 1px solid #e3eaf1; }
+td:first-child { width: 40%; font-weight: bold; }
+
+.badge { padding: 3px 12px; border-radius: 20px; color: #fff; font-weight: bold; }
+.Waspada { background: #2e9e5b; }
+.Siaga { background: #e0a100; }
+.Awas { background: #c0392b; }
