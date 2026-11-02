@@ -46,7 +46,6 @@ class LaporanController extends Controller
     }
 
     // Tampilkan daftar laporan dari database
-        // Tampilkan daftar laporan dari database
     public function daftar()
     {
         $data = Laporan::orderByDesc('tanggal_kejadian')->get();
