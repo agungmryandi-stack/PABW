@@ -1,0 +1,11 @@
+{
+    "name": "TitikDrainase",
+    "alias": "titikdrainase",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TitikDrainase\\Providers\\TitikDrainaseServiceProvider"
+    ],
+    "files": []
+}

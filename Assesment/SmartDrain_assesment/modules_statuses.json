@@ -1,0 +1,7 @@
+{
+    "Buku": true,
+    "Peminjaman": true,
+    "UserManagement": true,
+    "TitikDrainase": true,
+    "Laporan": true
+}
